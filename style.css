@@ -4,7 +4,6 @@ body{
     min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .header{
     background-color: #1f2937;
     color:#F9FAF8;
@@ -12,7 +11,6 @@ body{
     display:flex;
     align-items: center;
     height:73px;
-
 }
 .header ul{
     list-style-type: none;
@@ -28,5 +26,138 @@ body{
 .header-right-side ul{
     display:flex;
     padding-inline-start: 0;
+    margin-inline-end: 50px;
     gap:20px;
 }
+.header-left-side{
+    margin-left:50px;
+}
+.section-one{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+.section-one-text{
+    max-width: 400px;
+    margin:50px;
+}
+.section-one-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    margin: 0;
+}
+.section-one-text h4{
+    font-size: 18px;
+    color:#E5E7EB;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.section-one-text button{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    padding: 5px 20px 5px 20px;
+    border-radius: 6px;
+    border-color: #3882f6;
+}
+.section-one-placeholder{
+    color:white;
+    background-color: grey;
+    min-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-two h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.cards{
+    display: flex;
+    gap:40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card .image{
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    min-height: 200px;
+}
+.section-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+.section-three p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin:200px;
+    margin-bottom: 0;
+}
+.section-three h3{
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.section-two-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:200px;
+}
+.section-four{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-four .content{
+    margin:100px;
+    background-color: #3882f6;
+    display:flex;
+    align-items: center;
+    gap:100px;
+    border-radius: 6px;
+}
+.content button{
+    margin-left: auto;
+    margin-right:100px;
+    border:2px solid #F9FAF8;
+    color:#F9FAF8;
+    font-weight: bold;
+    background: #3882f6;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+.content ul{
+    margin-left:100px;
+    list-style-type: none;
+    color:#F9FAF8;
+    padding: 50px 100px 50px 100px;
+}
+.content h2{
+    margin:0px;
+}
+.footer{
+    background-color: #1f2937;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.footer h3{
+    margin:50px;
+}
+
